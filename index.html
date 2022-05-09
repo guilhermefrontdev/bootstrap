@@ -9,23 +9,70 @@
     <title>Minha Página</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-            <img src="imagens/logo.png" alt="Logo" width="200" height="80" style="background-color: tomato;">
+    <nav class="navbar navbar-expand-lg navbar-light margin">
+        <a class="navbar-brand" href="index.html">
+            <img src="imagens/logo.png" alt="Logo" width="200" height="80">
         </a>
         <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" style="color: white;">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Quem Somos</a>
+                    <a class="nav-link" href="#quemsomos">Quem Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Parceiros</a>
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Serviços</a>
+                    <a class="nav-link" href="#servicos">Serviços</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <section id="quemsomos">
+        <div class="container-fluid quem-somos text-center margin">
+            <h1 class="margin">Quem Somos</h1>
+            <img src="imagens/phone.jpg" class="rounded-circle" width="400" height="400">
+            <p class="margin">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam molestiae accusantium, commodi minima temporibus veniam veritatis, iusto eum cumque ea repellat? Dicta illum nostrum, officia illo voluptatum laboriosam consectetur nam.</p>
+        </div>
+    </section>
+
+    <section id="parceiros">
+        <div class="container-fluid text-center margin parceiros">
+            <h1 class="margin">Parceiros</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="imagens/cursoemvideo.png" width="400px">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/alura.png" width="100px">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/dio.png" width="80%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos"></div>
+        <h1 class="margin">Serviços</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime iste culpa aut autem numquam velit iusto ipsa ut quos! Vitae, assumenda. Praesentium veniam labore voluptate aspernatur ipsam tempora, libero quibusdam.</p>
+                    <img src="imagens/serv1.jpg" width="100%">
+                </div>
+                <div class="col-lg-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cum et sequi vitae necessitatibus ex, deleniti quis laborum, inventore distinctio enim corrupti consequatur, culpa illo ullam? Vero perspiciatis aperiam laborum?</p>
+                    <img src="imagens/computer.jpg" width="100%" height="361px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer margin" style="margin-top: 30px;">
+        <p>&copy; Copyright 2022 - Todos os Direitos Reservados | <a href="https://www.github.com/guilhermefrontdev" target="_blank">Guilherme Ribeiro 🔗</a>. </p>
+    </footer>
 </body>
 </html>

@@ -1,2 +1,40 @@
 @charset "UTF-8";
 
+body {
+    font: 20px Arial, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar {
+    background-color: darkcyan;
+    padding-left: 100px;
+}
+
+.margin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.parceiros {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: aqua;
+}
